@@ -1,6 +1,6 @@
 <?php
 
-    include_once 'Producto.php';
+    include_once 'modelo/Producto.php';
 
     class ProductoFisico extends Producto {
         private $peso;
