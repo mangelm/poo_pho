@@ -1,7 +1,7 @@
 <?php
-    require_once 'modelo/Cliente.php'; //para importar
-    require_once 'modelo/ProductoFisico.php';
-    require_once 'modelo/ProductoDigital.php';
+    require_once 'Modelo/Cliente.php'; //para importar
+    require_once 'Modelo/ProductoFisico.php';
+    require_once 'Modelo/ProductoDigital.php';
 
     $c1 = new Cliente("Miguel Angel Moreno");
     $c2 = new Cliente("Rocio Gonzalez");
